@@ -13,7 +13,10 @@ app.on('ready', () => {
     //去除任务栏
     Menu.setApplicationMenu(null);
     //创建一个窗口
-    const mainWindow = new BrowserWindow();
+    const mainWindow = new BrowserWindow({
+        //加载图标
+        icon:path.join(__dirname,'./icon/icon.ico'),
+    });
     //窗口加载GitHub
     mainWindow.loadURL("https://github.com/");
 })
