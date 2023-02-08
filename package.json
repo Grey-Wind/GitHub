@@ -1,0 +1,19 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "Electron GitHub Desktop",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grey-Wind/GitHub.git"
+  },
+  "author": "Grey Wind",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Grey-Wind/GitHub/issues"
+  },
+  "homepage": "https://github.com/Grey-Wind/GitHub#readme"
+}
