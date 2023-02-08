@@ -15,5 +15,27 @@
   "bugs": {
     "url": "https://github.com/Grey-Wind/GitHub/issues"
   },
-  "homepage": "https://github.com/Grey-Wind/GitHub#readme"
+  "homepage": "https://github.com/Grey-Wind/GitHub#readme",
+  "mac": {
+    "icon": "./icon/icon.ico"
+  },
+  "win": {
+    "icon": "./icon/icon.ico"
+  },
+  "linux": {
+    "icon": "./icon/icon.ico"
+  },
+  "nsis": {
+    "oneClick": false,
+    "guid": "idea",
+    "perMachine": true,
+    "allowElevation": true,
+    "allowToChangeInstallationDirectory": true,
+    "installerIcon": "./icon/icon.ico",
+    "uninstallerIcon": "./icon/icon.ico",
+    "installerHeaderIcon": "./icon/icon.ico",
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "idea"
+  }
 }
