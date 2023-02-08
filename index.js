@@ -10,9 +10,10 @@ const Menu = electron.Menu
 
 //app模块的ready事件被激发后创建浏览器窗口
 app.on('ready', () => {
-    Menu.setApplicationMenu(null)
+    //去除任务栏
+    Menu.setApplicationMenu(null);
     //创建一个窗口
-    const mainWindow = new BrowserWindow()
+    const mainWindow = new BrowserWindow();
     //窗口加载GitHub
-    mainWindow.loadURL("https://github.com/")
+    mainWindow.loadURL("https://github.com/");
 })
